@@ -1,5 +1,5 @@
 """
-xppnautplot — Universal .dat File Inspector & Plotter
+Xplot — Universal .dat File Inspector & Plotter
 =====================================================
 A standalone CustomTkinter desktop application that automatically
 parses, inspects, and plots any .dat file.
@@ -409,7 +409,7 @@ class AppUI(ctk.CTk):
       Plot button → export buttons.
     """
 
-    APP_TITLE    = "xppnautplot  —  .dat Inspector & Plotter"
+    APP_TITLE    = "Xplot — Universal .dat File Inspector & Plotter"
     PANEL_W      = 260
     MIN_W, MIN_H = 1100, 700
 

@@ -3,3 +3,5 @@ pandas>=2.0.0
 numpy>=1.24.0
 matplotlib>=3.7.0
 CTkMessagebox>=2.5
+streamlit>=1.28.0
+plotly>=5.17.0

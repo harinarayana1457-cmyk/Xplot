@@ -1,5 +1,5 @@
 """
-xppnautplot — Universal .dat File Inspector & Plotter (Streamlit Web App)
+Xplot — Universal .dat File Inspector & Plotter (Streamlit Web App)
 =========================================================================
 Runs on localhost (default: http://localhost:8501)
 Features:
@@ -20,7 +20,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 st.set_page_config(
-    page_title="xppnautplot — .dat Inspector & Plotter",
+    page_title="Xplot — .dat Inspector & Plotter",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -127,7 +127,7 @@ def parse_dat_file(file_bytes):
 
     return df, delim or "whitespace", has_header
 
-st.sidebar.markdown("### ⬡ xppnautplot")
+st.sidebar.markdown("### ⬡ Xplot")
 st.sidebar.markdown("**Universal .dat Inspector & Plotter**")
 st.sidebar.markdown("---")
 
@@ -154,7 +154,7 @@ elif use_sample != "(None)":
         with open(sample_path, "rb") as f:
             df, detected_sep, has_hdr = parse_dat_file(f.read())
 
-st.markdown('<div class="main-header">xppnautplot Web Dashboard</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">Xplot Web Dashboard</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-header">Inspect, analyze, and interactively plot scientific .dat files directly in your browser.</div>', unsafe_allow_html=True)
 
 if df is None:

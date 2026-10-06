@@ -1,0 +1,10 @@
+# Lorenz system
+dx/dt = s*(y - x)
+dy/dt = x*(r - z) - y
+dz/dt = x*y - b*z
+
+par s=10, r=28, b=2.6666667
+init x=1, y=1, z=1
+
+@ total=40, dt=0.005, nout=2
+done
